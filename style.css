@@ -1,4 +1,4 @@
-html, body{
+body{
     margin: auto;
     height: 100%;
 }
@@ -7,14 +7,6 @@ ul{
     margin: auto;
 }
 
-@media screen and (max-width: 560px) {
-    .card {
-    width: 100%;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    }
-}
 .wrapper{
     min-height: 100%;
     display: flex;
@@ -99,11 +91,7 @@ footer{
     margin-right: 300px;
     margin-top: 45px;
     margin-bottom: 45px;
-    justify-content: center;
     border-radius: 55px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .card:hover{
@@ -112,20 +100,9 @@ footer{
 
 }
 
-.textintitle{
-    height: auto;
-    padding-right: 100px;
-}
-
-
-.textabout2{
-    flex-direction: column;
-    align-items: right;
-    padding-right: 100px;
-
-}
-
 img {
     max-width: 50%;
     height: auto;
+    float: right;
+    padding: 25px;
 }
