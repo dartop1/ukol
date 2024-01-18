@@ -1,10 +1,15 @@
 body{
     margin: auto;
     height: 100%;
+    font-family: Quicksand, sans-serif;
 }
 
 ul{
     margin: auto;
+}
+
+.link_card{
+    text-decoration: none;
 }
 
 .wrapper{
@@ -21,6 +26,15 @@ header ul{
     padding: 10px;
     background-color: #E8E8E8;
 
+}
+
+#link_card{
+    color: #2f2f2f;
+}
+
+.link_card{
+    text-decoration: none;
+    
 }
 
 a{
